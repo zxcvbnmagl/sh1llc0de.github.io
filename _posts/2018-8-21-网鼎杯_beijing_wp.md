@@ -12,12 +12,10 @@ tags:								#标签
 >这次打网鼎杯给我的感觉就是全场被虐，web狗无法存活。
 
 ## 运行分析
-	直接运行发现打印了一些乱码的字符串
-	![](https://s1.ax1x.com/2018/08/21/PILX6g.png)
+直接运行发现打印了一些乱码的字符串![](https://s1.ax1x.com/2018/08/21/PILX6g.png)
 
 ## ida一把梭
-	先查看函数发现有main函数，那就直接f5,f5,f5。
-	![](https://s1.ax1x.com/2018/08/21/PIOKtx.png)
+先查看函数发现有main函数，那就直接f5,f5,f5。![](https://s1.ax1x.com/2018/08/21/PIOKtx.png)
 
 	之后我们发现是直接调用sub_8048460函数并打印返回值
 	![](https://s1.ax1x.com/2018/08/21/PIOl9K.png)
