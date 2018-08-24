@@ -42,7 +42,7 @@ tags:								#标签
 之后尝试写一下脚本。先理一下思路。
 
 ```c
-# 伪代码
+# 伪代码  
 encode():
 	return flag[i] ^ xor[i]
 main():
@@ -50,7 +50,7 @@ main():
 	print encode(list[i])
 	
 	
-# python
+# python  
 string = 'aginbefjml{z}_'
 num = [6, 9, 0, 1, 0xa, 0, 8, 0, 0xb, 2, 3, 1, 0xd, 4, 5, 2, 7, 2, 3, 1, 0xc]
 flag = ''
