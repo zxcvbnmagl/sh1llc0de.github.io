@@ -106,7 +106,7 @@ INSERT INTO flag VALUES('HRCTF{1n0rrY_i3_Vu1n3rab13}');
 
 * updatexml
 我也不总结了，有大佬写的挺好的  
-<https://xz.aliyun.com/t/2160></https://xz.aliyun.com/t/2160>
+<https://xz.aliyun.com/t/2160>
 
 * make_set  
 <https://www.sh1llc0de.xyz/2018/09/02/make_set%E5%AD%A6%E4%B9%A0>
