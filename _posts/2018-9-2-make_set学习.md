@@ -32,4 +32,4 @@ mysql> SELECT MAKE_SET(0,'a','b','c');
 
 bits应将期转为二进制，如，1为，0001,倒过来排序，则为1000,将bits后面的字符串str1,str2等，放置在这个倒过来的二进制排序中，取出值为1对应的字符串，则得到hello
 
-1|4表示进行或运算，为0001 | 0100,得0101，倒过来排序，为1010，则'hello','nice','world'得到的是hello word。'hello','nice',NULL,'world'得到的是hello。null不取，只有1才取对应字符串
+>1|4表示进行或运算，为0001 | 0100,得0101，倒过来排序，为1010，则'hello','nice','world'得到的是hello word。'hello','nice',NULL,'world'得到的是hello。null不取，只有1才取对应字符串
